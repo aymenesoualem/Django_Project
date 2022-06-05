@@ -1,0 +1,90 @@
+{%load static%}
+<!doctype html>
+<html lang="eng">
+   <head>
+    <title>SelfDefense</title>
+	<meta charset="utf-8"/>
+	<meta name="viewpoint" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" href={%static 'css/styleMarts.css'%}>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+	
+   </head>
+   <body>
+		 
+   <header><div class="headpage"> <nav>
+   
+    <img src="{%static 'images/masterken.png'%}"style="width:10%;height:auto;">
+	<div class=nav-links>
+	<ul>
+	 <li><a href={%url 'index'%}>Home</a></li>
+	 <li><a href={%url 'about'%}>About</a></li>
+	 <li>Courses   
+	        <div class=subnav-links>
+            <ul>
+				<li><a href={%url 'judo'%}>{{Courses.1.name}}</a></li>
+				<li><a href={%url 'karate'%}>{{Courses.0.name}}</a></li>
+				<li><a href={%url 'kungfu'%}>{{Courses.2.name}}</a></li>
+				 
+            </ul>
+ 			</div></li>
+	 <li><a href={%url 'contactus'%}>Contact</a></li>
+	 </ul>
+	 </div></nav><br>
+	
+	
+	
+   
+
+
+
+
+
+
+<p style="text-align:center">
+  <h1> <center> Karate</h1></center>
+    <h2><center>Stop being a pussy<br>Come kick some ass</center></h2>
+   
+   
+   
+   </div></header>
+   <h2><p style="text-align:center">Our Karate class will teach how to strike and grapple properly, in a fight your enemy wont always be looking to hug you like his bitch<br>
+     he will also try to punch you, kick you.....  
+	 <br> That's why we teach karate in our dojo, it's not only a way to gain strength and stamina, it's also a practical self-defense tool.</h2></p>
+	<h1 class="pagetitle"><center>Our sensei</center></h1>
+    <div class="row">
+    <div class="container">
+	 <a href={%url 'contactus'%}>>
+    <img src={%static 'images/gun.jpg'%} style="width:100%;height:100%;">
+    
+	<div class="overlay">
+	<div class="text">
+	   Join class</div></div></div></a>
+	 <br>
+	 <h2><p>Sensei Ken is devoted to teach you how to kick, having won 3000000000 Karate championships sensei will teach you the fundamentals   
+	 of karate, but it doesnt stop here Sensei Ken puts his own touch in the field by going further to experiment and create new techniques to help you in your path.  </h2></p>
+	 
+	 <center><div class="video"><a href="https://youtu.be/sMwXuFwSiaU"><video width="640" height="480" autoplay muted>
+  <source src={%static 'images/balls.mp4'%} type="video/mp4">
+  <source src="balls.ogg" type="video/ogg">
+</video></a></div>
+<h1>Sensei Ken kicking balls</h1></center>
+   
+	   
+
+	   
+
+	 
+  </p></body>
+  <footer>
+  <section class="footer">
+	<h4>About Us<h4>
+	<p>WEAKNESS IS NOT ALLOWED, FEELING PAIN IS NOT ALLOWED <br>DONT BE A PUSSY ,STRIKE HARD, NO MERCY<br>
+	<a href="https://web.facebook.com/CobraKaiSeries/?_rdc=1&_rdr" class="fa fa-facebook"></a>
+<a href="https://twitter.com/CobraKaiSeries?s=20" class="fa fa-twitter"></a>
+<a href="https://www.instagram.com/cobrakaiseries/?hl=en" class="fa fa-instagram"></a></p>
+	
+</section>
+</footer>
+
+
+</html>

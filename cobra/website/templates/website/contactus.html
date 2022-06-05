@@ -1,0 +1,93 @@
+{%load static%}
+<!doctype html>
+<html lang="eng">
+   <head>
+    <title>SelfDefense</title>
+	<meta charset="utf-8"/>
+	<meta name="viewpoint" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" href={%static 'css/stylecontact.css'%}>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+	
+   </head>
+   <body>
+		 
+   <header><div class="headpage"> <nav>
+   
+    <img src="{%static 'images/masterken.png'%}"style="width:10%;height:auto;">
+	<div class=nav-links>
+	<ul>
+	 <li><a href={%url 'index'%}>Home</a></li>
+	 <li><a href={%url 'about'%}>About</a></li>
+	 <li>Courses   
+	        <div class=subnav-links>
+            <ul>
+				<li><a href={%url 'judo'%}>{{Courses.1.name}}</a></li>
+				<li><a href={%url 'karate'%}>{{Courses.0.name}}</a></li>
+				<li><a href={%url 'kungfu'%}>{{Courses.2.name}}</a></li>
+				 
+            </ul>
+ 			</div></li>
+	 <li><a href={%url 'contactus'%}>Contact</a></li>
+	 </ul>
+	 </div></nav><br>
+	<p style="text-align:center">
+  <h1> <center> Contact Us</h1></center>
+    <h2><center>Cobra Kai
+	<br>Never Dies</center></h2>
+	</div></header>
+	
+   <section class="location">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54928876.72209815!2d-79.82202870826086!3d32.829558650518365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2ef2ba1773fb%3A0xa8808e5809b3b4d5!2sWhiskey%20A%20Go-Go%20Strip%20Club!5e0!3m2!1sen!2sma!4v1621897137965!5m2!1sen!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+	</section>	
+	
+	<section class="contact-us">
+		<div class="row">
+			<div class="contact-col">
+				<div>
+					<i class="fa fa-home"></i>
+					<span>
+						<h5>Simp street, 69th Avenue</h5>
+						<p>Los Angeles, NV 89103, United States</p>
+					</span>
+				</div>
+				<div>
+					<i class="fa fa-address-book" aria-hidden="true"></i>
+					<span>
+						<h5>+212 669696969</h5>
+						<p>7/7 24/24</p>
+					</span>
+				</div>
+				<div>
+					<i class="fa fa-envelope-open" aria-hidden="true"></i>
+					<span>
+						<h5>SelfDefense@gmail.com</h5>
+						<p>email us for more</p>
+					</span>
+				</div>
+			</div>
+			<div class="contact-col">
+			
+				<form>
+					<input  type="text" placeholder="Enter Your Name" required>
+					<input  type="email" placeholder="Enter email address" required>
+					<input  type="text" placeholder="Enter Your Name" required>
+					<textarea rows="8" placeholder="Message" required></textarea>
+					<button type="submit" class="hero-btn red-btn">Send Message</button>
+				</form>
+			</div>
+		</div>
+	</section>
+  </p></body>
+  <footer>
+  <section class="footer">
+	<h4>About Us<h4>
+	<p>WEAKNESS IS NOT ALLOWED, FEELING PAIN IS NOT ALLOWED <br>DONT BE A PUSSY ,STRIKE HARD, NO MERCY<br>
+	<a href="https://web.facebook.com/CobraKaiSeries/?_rdc=1&_rdr" class="fa fa-facebook"></a>
+<a href="https://twitter.com/CobraKaiSeries?s=20" class="fa fa-twitter"></a>
+<a href="https://www.instagram.com/cobrakaiseries/?hl=en" class="fa fa-instagram"></a></p>
+	
+</section>
+</footer>
+
+
+</html>

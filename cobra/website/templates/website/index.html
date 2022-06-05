@@ -1,0 +1,170 @@
+﻿{%load static%}
+<!doctype html>
+<html lang="eng">
+   <head>
+    <title>SelfDefense</title>
+	<meta charset="utf-8"/>
+	<meta name="viewpoint" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" href={%static 'css/style.css'%}>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+	
+   </head>
+   <body>
+		 
+   <header><div class="headpage"> <nav>
+   
+	<img src="{%static 'images/masterken.png'%}"style="width:10%;height:auto;">
+	<div class=nav-links>
+	<ul>
+	 <li><a href={%url 'index'%}>Home</a></li>
+	 <li><a href={%url 'about'%}>About</a></li>
+	 <li>Courses   
+	        <div class=subnav-links>
+            <ul>
+	             <li><a href={%url 'judo'%}>{{Courses.1.name}}</a></li>
+				 <li><a href={%url 'karate'%}>{{Courses.0.name}}</a></li>
+				 <li><a href={%url 'kungfu'%}>{{Courses.2.name}}</a></li>
+				 
+            </ul>
+ 			</div></li>
+	 <li><a href={%url 'contactus'%}>Contact</a></li>
+	 </ul>
+	 </div></nav><br>
+	
+	
+	
+   
+
+
+
+
+
+
+
+  <h1> <center> Cobra Kai</h1></center>
+    <h2><center>Stop being a pussy<br>Come kick some ass</center></h2>
+   
+   
+   
+   </div></header>
+   <h2><p style="text-align:center">In this dojo we teach strength, power, being badass, and most importantly: not being a pussy.<br>
+    Sensei Aymene and Sensei Mohamed are always here for you to teach how to kick ass</h2></p>
+	
+	
+	
+	
+	
+	<section class=division>
+	<h1 class="pagetitle"><center>Martial Arts</center></h1>
+    <div class="row">
+    <div class="container">
+	 <a href={%url 'judo'%}>
+    <img src={%static 'images/putinka.jpg'%} style="width:100%;height:100%;">
+    
+	<div class="overlay">
+	<div class="text">
+		{{Courses.1.name}}</div></div></a></div>
+	
+	
+	
+	
+	    <div class="container">
+	 <a href={%url 'karate'%}>
+    <img src={%static 'images/gun.jpg'%} style="width:100%;height:100%;">
+    
+	<div class="overlay">
+	<div class="text">
+		{{Courses.0.name}}</div></div></a></div>
+	   
+	   
+	   
+	   
+        <div class="container">
+	 <a href={%url 'kungfu'%}>
+    <img src={%static 'images/senseilmki.jpeg'%} style="width:100%;height:100%;">
+    
+	<div class="overlay">
+	<div class="text">
+		{{Courses.2.name}}</div></div></div></a></div>
+	
+	
+	</section>
+	
+	<section class=division>
+	<h1 class="pagetitle"><center>Our dojos</center></h1>
+    <div class="row">
+    <div class="container">
+	 <a href="https://goo.gl/maps/VKRR1JBNGYTYLmJG9">
+    <img src={%static 'images/dojo1.png'%} style="width:100%;height:100%;">
+    
+	<div class="overlay">
+	<div class="text">
+		{{Schools.0.name}}</div></div></a></div>
+	
+	
+	
+	
+	    <div class="container">
+	 <a href="https://goo.gl/maps/BsLrdWW8Gq317kd97">
+    <img src={%static 'images/dojo2.jpg'%} style="width:100%;height:100%;">
+    
+	<div class="overlay">
+	<div class="text">
+		{{Schools.1.name}}</div></div></div></a>
+	   
+	   
+	   
+	   
+        <div class="container">
+	 <a href="https://goo.gl/maps/Tvyvb5EpNUAYtUBv6">
+    <img src={%static 'images/dojo3.jpg'%} style="width:100%;height:100%;">
+    
+	<div class="overlay">
+	<div class="text">
+		{{Schools.2.name}}</div></div></div></a></div>
+	
+	</section>
+	
+	
+	<section class=division>
+	<h1 class="pagetitle"><center>Student Reviews</center></h1>
+	<center><div class="Reviews">  
+	<div class="row">
+	    <div class="review-cell">
+		    <img src={%static 'images/mia.jpg'%}>
+			<div><p>
+			    After I joined I learned how to defend myself gained inner strength and most importantly I got more confident</p>
+				<h3>Mia Khalifa</h3>
+			</div>	
+        </div>
+	</div>	
+		
+		
+		
+		
+	<div class="row">
+	    <div class="review-cell">
+		    <img src={%static 'images/johnny.jpg'%}>
+			<div><p>
+			    After joining the dojo I expanded my spectrum of skills, I thrive to excell at every career I try and Cobra Kai helped me further that.</p>
+				<h3>Johnny Sins</h3>
+			</div>	
+        </div>
+	</div>
+	</div>  </section></center>   
+	
+
+	 
+  </body>
+  <footer>
+  <section class="footer">
+	<h4>About Us<h4>
+	<p>WEAKNESS IS NOT ALLOWED, FEELING PAIN IS NOT ALLOWED <br>DONT BE A PUSSY ,STRIKE HARD, NO MERCY<br>
+	<a href="https://web.facebook.com/CobraKaiSeries/?_rdc=1&_rdr" class="fa fa-facebook"></a>
+<a href="https://twitter.com/CobraKaiSeries?s=20" class="fa fa-twitter"></a>
+<a href="https://www.instagram.com/cobrakaiseries/?hl=en" class="fa fa-instagram"></a></p>
+	
+</section>
+</footer>
+
+</html>

@@ -1,0 +1,88 @@
+{%load static%}
+<!doctype html>
+<html lang="eng">
+   <head>
+    <title>SelfDefense</title>
+	<meta charset="utf-8"/>
+	<meta name="viewpoint" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" href={%static 'css/styleabout.css'%}>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+	
+   </head>
+   <body>
+		 
+   <header><div class="headpage"> <nav>
+   
+    <img src="{%static 'images/masterken.png'%}"style="width:10%;height:auto;">
+	<div class=nav-links>
+	<ul>
+	 <li><a href={%url 'index'%}>Home</a></li>
+	 <li><a href={%url 'about'%}>About</a></li>
+	 <li>Courses   
+	        <div class=subnav-links>
+            <ul>
+				<li><a href={%url 'judo'%}>{{Courses.1.name}}</a></li>
+				<li><a href={%url 'karate'%}>{{Courses.0.name}}</a></li>
+				<li><a href={%url 'kungfu'%}>{{Courses.2.name}}</a></li>
+				 
+            </ul>
+ 			</div></li>
+	 <li><a href={%url 'contactus'%}>Contact</a></li>
+	 </ul>
+	 </div></nav><br>
+
+<p style="text-align:center">
+  <h1> <center> About Us</h1></center>
+    <h2><center>Cobra Kai
+	<br>Never Dies</center></h2>
+	</div></header>
+	<section class="about-us">
+		<div class="row">
+			<div class="about-col">
+				<h1>We are cobra kai</h1>
+				<p>Sensei Aymene and Sensei Mohamed are the founding Senseis of Cobra Kai, together they started this dojo to teach kids how too stand up for themselves.
+				</p>
+			</div>
+			<div class="about-col">
+				<img src="{%static 'images/anawalaoui.jpg'%}">
+			</div>
+		</div>
+		<div class="row">
+			<div class="about-col">
+				<img src="{% static 'images/rambo.jpg'%}">
+			</div>
+			<div class="about-col">
+				<h1>Sensei Mohamed</h1>
+				<p>Sensei Mohamed also known as John Rambo is a vietnam vet. Having medal of honor alongside Sensei John they both developed their skills together.
+				Sensei Rambo has beaten 400000000000 people in 1V1 combats, there is no guy no one that can match his skills in the field. His only equal is John Kreese.				</p>
+			
+			<a href="https://en.wikipedia.org/wiki/John_Rambo" class="hero-btn">Explore</a>
+			</div>
+		</div>
+				<div class="row">
+			<div class="about-col">
+				<img src={% static 'images/kreese.jpeg'%}>
+			</div>
+			<div class="about-col">
+				<h1>Sensei Aymene</h1>
+				<p>Sensei Aymene also known as John Kreese is a vietnam vet, after earning the medal of honor and surviving the vietnam war Sensei Kreese met Sensei Rambo and formed Cobra Kai.
+				Sensei Kreese is no pussy, through learning Karate and other martial arts he managed to survive Vietnam and kicked ass while doing so.</p>
+			
+			<a href="https://en.wikipedia.org/wiki/John_Kreese" class="hero-btn">Explore</a>
+			</div>
+		</div>
+   </section>
+   </p></body>
+   <footer>
+  <section class="footer">
+	<h4>About Us<h4>
+	<p>WEAKNESS IS NOT ALLOWED, FEELING PAIN IS NOT ALLOWED <br>DONT BE A PUSSY ,STRIKE HARD, NO MERCY<br>
+	<a href="https://web.facebook.com/CobraKaiSeries/?_rdc=1&_rdr" class="fa fa-facebook"></a>
+<a href="https://twitter.com/CobraKaiSeries?s=20" class="fa fa-twitter"></a>
+<a href="https://www.instagram.com/cobrakaiseries/?hl=en" class="fa fa-instagram"></a></p>
+	
+</section>
+</footer>
+
+
+</html>
